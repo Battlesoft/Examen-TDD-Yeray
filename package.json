@@ -1,0 +1,21 @@
+{
+  "name": "vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.29.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standar/eslintrc.json"
+  },
+  
+  "type": "module"
+}
